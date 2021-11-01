@@ -1,4 +1,4 @@
-# rdeditor
+# GUIMolEditor
 Molecule Editor GUI using RDKit
 ![rdeditor, the RDKit molecule editor](./Screenshots/Main_window.png)
 
