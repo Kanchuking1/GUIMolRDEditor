@@ -12,16 +12,15 @@ RDKIT and PySide2
 python setup.py install
 
 ```
+## Install
+The install script Will also install PySide2, but not RDkit, so that should be installed manually or via your operating systems package manager.\
 
-The install script Will also install PySide2, but not RDkit, so that should be installed manually or via your operating systems package manager. A launch script will also be added so that it can be started from the command line via the rdEditor command.
-
-## Alternative install
-Install PySide and RDKit yourself, save the content of rdeditor folder to somewhere you like and start it with 
-`python rdEditor.py`
+Install PySide and RDKit yourself, save the content of guimoleditor folder to somewhere you like and start it with 
+`python guiMolEditor.py`
 
 ## Usage
 
-Can be started with `rdEditor` or `rdEditor your_molecule.mol` to start edit an existing molecule.
+Can be started with `python guiMolEditor.py` to start edit an existing molecule.
 Interactions with the molecule are done via clicking on the canvas, atoms or bonds. A choice of tools is available.
 
 From left to right
