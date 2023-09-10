@@ -1,4 +1,12 @@
-# GUIMolEditor
+# Molecule Editor GUI using RDKit and Python
+
+Project Report: 
+[Molecule Editor GUI using RDKit and Python](https://drive.google.com/file/d/1bpI7iSbERAewdGBigAlfK_mODpR4Wyqr/view?usp=sharing)
+
+Video Demo of the Project: 
+[Youtube](https://www.youtube.com/watch?v=eoWjcVl_ULg)
+
+## GUIMolEditor
 Molecule Editor GUI using RDKit
 ![rdeditor, the RDKit molecule editor](./Screenshots/Main_window.png)
 
@@ -13,9 +21,9 @@ python setup.py install
 
 ```
 ## Install
-The install script Will also install PySide2, but not RDkit, so that should be installed manually or via your operating systems package manager.\
+The install script Will also install PySide2, but not RDkit, so it needs to be installed seperately.  
 
-Install PySide and RDKit yourself, save the content of guimoleditor folder to somewhere you like and start it with 
+Save the content of guimoleditor folder to somewhere you like and start it with 
 `python guiMolEditor.py`
 
 ## Usage
